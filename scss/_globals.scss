@@ -23,10 +23,9 @@ Globals
 }
 
 @font-face {
-  font-family: 'Yanone Kaffeesatz';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Yanone Kaffeesatz Bold'), local('YanoneKaffeesatz-Bold'), url(http://fonts.gstatic.com/s/yanonekaffeesatz/v7/We_iSDqttE3etzfdfhuPRbJjSLMfVFmTspsxH0yGxjj3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+    font-family: "estilo-pro",sans-serif;
+    font-style: normal;
+    font-weight: 700;
 }
 
 @mixin body-font-regular {
@@ -42,7 +41,7 @@ Globals
 }
 
 @mixin headline-font {
-    font-family: 'Yanone Kaffeesatz', helvetica, verdana, sans-serif;
+    font-family: 'estilo-pro', helvetica, verdana, sans-serif;
     font-style: normal;
     font-weight: 700;
 }
